@@ -21,45 +21,9 @@ plugins/*
 !plugins/wiz/
 plugins/wiz/*
 
-# Include themes
 !themes/
 themes/*
 !themes/new-plugin-er/
 !themes/new-plugin-er/*
 
 !.gitkeep
-
-# Development plugin specific files
-_ide_helper.php
-
-# MacOS files
-*.DS_Store
-.AppleDouble
-.LSOverride
-Icon
-._*
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-*.log
-
-# PHPStorm
-.idea
-cmake-build-debug/
-*.iws
-
-### PhpStorm Patch ###
-# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
-# *.iml
-# modules.xml
-# .idea/misc.xml
-# *.ipr
