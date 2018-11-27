@@ -15,11 +15,13 @@ vendor/
 artisan
 index.php
 
+# Include only custom made plugins
 !plugins/
 plugins/*
 !plugins/wiz/
 plugins/wiz/*
 
+# Include themes
 !themes/
 themes/*
 !themes/new-plugin-er/
