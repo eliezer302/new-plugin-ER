@@ -1,0 +1,16 @@
+# Ignore OctoberCMS completely.. just keep all plugins and themes related to the project
+bootstrap/
+config/
+modules/
+!storage/
+storage/*
+!storage/app
+storage/app/*
+!storage/app/media
+!storage/app/media/*
+vendor/
+.well-known/
+.htaccess
+.env
+artisan
+index.php
